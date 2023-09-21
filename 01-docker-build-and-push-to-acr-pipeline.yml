@@ -8,7 +8,8 @@ trigger:
 resources:
 - repo: self
 
-pool: default
+pool: 
+- default
 
 variables:
   # Container registry service connection established during pipeline creation
