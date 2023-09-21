@@ -26,7 +26,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      name: 'Default'
+      name: 'HungDang-PC'
       vmImage: $(vmImageName)
     steps:
     - task: Docker@2
